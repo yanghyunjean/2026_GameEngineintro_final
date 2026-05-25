@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e9b681528341ba74792d18efb23c470c
+guid: 66ba22e795aa363438c61316cf477501
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -50,7 +50,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -106,10 +106,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
-        width: 16
-        height: 16
+        x: 25
+        y: 218
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +128,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 224
-        width: 16
-        height: 16
+        x: 38
+        y: 218
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 224
-        width: 16
-        height: 16
+        x: 51
+        y: 218
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,8 +162,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c4253dcaf5a55d49a865f73a34e515e
-      internalID: -1144316210
+      spriteID: 5afa124a1a5236a468a78f098137460a
+      internalID: -1475931114
       vertices: []
       indices: 
       edges: []
@@ -172,10 +172,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 224
-        width: 16
-        height: 16
+        x: 64
+        y: 218
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa6f4955c69102245b9e920e2840f693
-      internalID: -861977604
+      spriteID: 08c9438ef7e4b034c8b594e200570684
+      internalID: -857976205
       vertices: []
       indices: 
       edges: []
@@ -194,10 +194,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 224
-        width: 16
-        height: 16
+        x: 77
+        y: 218
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64439ef4d84988f49a195bd96e1dff08
-      internalID: -728401072
+      spriteID: f37d422a064d0e544a0e9d040f13cae5
+      internalID: 1127565063
       vertices: []
       indices: 
       edges: []
@@ -216,10 +216,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_5
       rect:
         serializedVersion: 2
-        x: 80
-        y: 224
-        width: 16
-        height: 16
+        x: 90
+        y: 218
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d8b795c75d4cbc43b6cc4bbe42e6a38
-      internalID: 370910347
+      spriteID: f3b305f0a474f884da2682fcfebc17c7
+      internalID: 928067079
       vertices: []
       indices: 
       edges: []
@@ -238,10 +238,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 208
-        width: 16
-        height: 16
+        x: 25
+        y: 203
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fce9bcb605479d46aa56946b62539fe
-      internalID: -687882151
+      spriteID: e65a889a5c7d9364c84d3a08f95dba1e
+      internalID: 191375072
       vertices: []
       indices: 
       edges: []
@@ -260,10 +260,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 208
-        width: 16
-        height: 16
+        x: 38
+        y: 203
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,8 +272,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47aa51b31bc0e1947ab4dfef9daa7581
-      internalID: 103855911
+      spriteID: 21d3e88615ce6b4479bfa132b937c935
+      internalID: 453109971
       vertices: []
       indices: 
       edges: []
@@ -282,10 +282,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 208
-        width: 16
-        height: 16
+        x: 51
+        y: 203
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,8 +294,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fbaacea6949ba74db337f45c0d40540
-      internalID: 1826851591
+      spriteID: 07bc9471ed674be4890a3c444cde9c53
+      internalID: -910304142
       vertices: []
       indices: 
       edges: []
@@ -304,10 +304,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_9
       rect:
         serializedVersion: 2
-        x: 48
-        y: 208
-        width: 16
-        height: 16
+        x: 64
+        y: 203
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,8 +316,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6b1bf30b0844044885f7e8461ec25ca
-      internalID: 284651132
+      spriteID: 0386cf45ef0c10140a3dfc3b6fe6d699
+      internalID: 990861160
       vertices: []
       indices: 
       edges: []
@@ -326,10 +326,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 208
-        width: 16
-        height: 16
+        x: 77
+        y: 203
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,8 +338,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a3e32663dbdcf4409cc8e0d048ea9aa
-      internalID: 1012871567
+      spriteID: c706a3e30a86f524db9fe349dd6ebee9
+      internalID: 1609500176
       vertices: []
       indices: 
       edges: []
@@ -348,10 +348,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_11
       rect:
         serializedVersion: 2
-        x: 80
-        y: 208
-        width: 16
-        height: 16
+        x: 90
+        y: 203
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,8 +360,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51b00c7a4a8272041aee2cd7ccf7f8be
-      internalID: -1695467108
+      spriteID: 21dcfbdfa4e17ec4f86b0deca188f9cc
+      internalID: -1179823239
       vertices: []
       indices: 
       edges: []
@@ -370,10 +370,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 16
-        height: 16
+        x: 25
+        y: 188
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,8 +382,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ec55726c07fc514d96db33c92872b13
-      internalID: 1235470403
+      spriteID: f46e372eada3a1a4089760f644d880f7
+      internalID: 1865972229
       vertices: []
       indices: 
       edges: []
@@ -392,10 +392,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_13
       rect:
         serializedVersion: 2
-        x: 16
-        y: 192
-        width: 16
-        height: 16
+        x: 38
+        y: 188
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,8 +404,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc3c5ca23623178418bceef9ff9c1101
-      internalID: 561277286
+      spriteID: 9fe85459f5b8021468529b331c454f3e
+      internalID: 1231454437
       vertices: []
       indices: 
       edges: []
@@ -414,10 +414,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_14
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
-        width: 16
-        height: 16
+        x: 51
+        y: 188
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,8 +426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4de033c59cbed254abd569575cf70619
-      internalID: -1008794574
+      spriteID: c223c918c6178ab47a81b92c2ea0f3c5
+      internalID: -1239552983
       vertices: []
       indices: 
       edges: []
@@ -436,10 +436,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_15
       rect:
         serializedVersion: 2
-        x: 48
-        y: 192
-        width: 16
-        height: 16
+        x: 64
+        y: 188
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,8 +448,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4afd07af28afe844985b907bcc4474f7
-      internalID: 589712679
+      spriteID: 58fbd3e36ec62934497f5618c7335f3a
+      internalID: -911258785
       vertices: []
       indices: 
       edges: []
@@ -458,10 +458,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_16
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 16
-        height: 16
+        x: 77
+        y: 188
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,8 +470,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c6239045a596df45b7fdc597c91e783
-      internalID: -278432317
+      spriteID: 7ddb32d58a1f25749afb774f5382dd4d
+      internalID: -1150827197
       vertices: []
       indices: 
       edges: []
@@ -480,10 +480,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_17
       rect:
         serializedVersion: 2
-        x: 80
-        y: 192
-        width: 16
-        height: 16
+        x: 90
+        y: 188
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,8 +492,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a4c66d37eb37bd4b9e05a6f0181cba3
-      internalID: 704963905
+      spriteID: d098d4aa369c71541a68c965ddec64fd
+      internalID: -565120166
       vertices: []
       indices: 
       edges: []
@@ -502,10 +502,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 176
-        width: 16
-        height: 16
+        x: 25
+        y: 173
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,8 +514,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1de5101d75d5bc849a366415f09fa5e1
-      internalID: 1091187424
+      spriteID: 727bfa12b8f2c3849a96066315e48f72
+      internalID: 676802580
       vertices: []
       indices: 
       edges: []
@@ -524,10 +524,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_19
       rect:
         serializedVersion: 2
-        x: 16
-        y: 176
-        width: 16
-        height: 16
+        x: 38
+        y: 173
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,8 +536,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c5226b558d67ab4f8180b89afaa688b
-      internalID: 1100715521
+      spriteID: ade250f3d1df4c24ab8e34f0bbc3232f
+      internalID: 920043166
       vertices: []
       indices: 
       edges: []
@@ -546,10 +546,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_20
       rect:
         serializedVersion: 2
-        x: 32
-        y: 176
-        width: 16
-        height: 16
+        x: 51
+        y: 173
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,8 +558,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e12e3c9dee5a2c242b98817796dad180
-      internalID: -93730853
+      spriteID: d357ed676239e1442905d148919d7335
+      internalID: -1860078412
       vertices: []
       indices: 
       edges: []
@@ -568,10 +568,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_21
       rect:
         serializedVersion: 2
-        x: 48
-        y: 176
-        width: 16
-        height: 16
+        x: 64
+        y: 173
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,8 +580,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab77f43afaff6f443a733584e19232f2
-      internalID: -1014409140
+      spriteID: b8723209b06a67341b6392b631deff85
+      internalID: -2131052334
       vertices: []
       indices: 
       edges: []
@@ -590,10 +590,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_22
       rect:
         serializedVersion: 2
-        x: 64
-        y: 176
-        width: 16
-        height: 16
+        x: 77
+        y: 173
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,8 +602,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71f347d47e603e84fb8986f2733c7724
-      internalID: 1594806704
+      spriteID: 340faac7d286f7845a5580f69dea2134
+      internalID: -1387649566
       vertices: []
       indices: 
       edges: []
@@ -612,10 +612,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_23
       rect:
         serializedVersion: 2
-        x: 80
-        y: 176
-        width: 16
-        height: 16
+        x: 90
+        y: 173
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,8 +624,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9be26d5dc9da0bc489f1ddcf2132ce14
-      internalID: 1106350731
+      spriteID: 74ff4cace28514141be726d029ade593
+      internalID: -743300846
       vertices: []
       indices: 
       edges: []
@@ -634,10 +634,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
-        width: 16
-        height: 16
+        x: 25
+        y: 158
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,8 +646,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ae9c0e9674aa124d93ab24d906d7b87
-      internalID: 1630762089
+      spriteID: c497b7c1140de7c4da40df19a2f0ea80
+      internalID: 993348334
       vertices: []
       indices: 
       edges: []
@@ -656,10 +656,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_25
       rect:
         serializedVersion: 2
-        x: 16
-        y: 160
-        width: 16
-        height: 16
+        x: 38
+        y: 158
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,8 +668,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92bd2374a8b087c4180ed1ecdc6a3a2f
-      internalID: -487134809
+      spriteID: fa3f4e39e721f9e43a14fabf0b02f501
+      internalID: -238254046
       vertices: []
       indices: 
       edges: []
@@ -678,10 +678,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_26
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
-        width: 16
-        height: 16
+        x: 51
+        y: 158
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,8 +690,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90c77f1c4fae2dd4f8ae4d7f44a8844e
-      internalID: -1725020322
+      spriteID: 792e57d560b8c6c4db692a570a283d93
+      internalID: -1398564028
       vertices: []
       indices: 
       edges: []
@@ -700,10 +700,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_27
       rect:
         serializedVersion: 2
-        x: 48
-        y: 160
-        width: 16
-        height: 16
+        x: 64
+        y: 158
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,8 +712,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a58de69248197c49b7fa5ad5f5a8f96
-      internalID: 614163402
+      spriteID: eaf27df3b770fdb429a79ad42acce8b9
+      internalID: -1456041923
       vertices: []
       indices: 
       edges: []
@@ -722,10 +722,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_28
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
-        width: 16
-        height: 16
+        x: 77
+        y: 158
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,8 +734,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 120d6c386e408d54ba935fc64b8f9861
-      internalID: 834629536
+      spriteID: 39457b3489d960a4d99f10f47a024404
+      internalID: 1506492673
       vertices: []
       indices: 
       edges: []
@@ -744,10 +744,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_29
       rect:
         serializedVersion: 2
-        x: 80
-        y: 160
-        width: 16
-        height: 16
+        x: 90
+        y: 158
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,8 +756,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2aadc5026631d72489c84b42aa5f7f06
-      internalID: 540212494
+      spriteID: ca4de6d29ab5d824c9902ff6f1b31bd1
+      internalID: -521349322
       vertices: []
       indices: 
       edges: []
@@ -766,10 +766,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 144
-        width: 16
-        height: 16
+        x: 25
+        y: 143
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,8 +778,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bfbc7b50c280904baa90391d9cf4bec
-      internalID: -867112993
+      spriteID: dec7c2422018489418816935cb3f5ee9
+      internalID: 771539210
       vertices: []
       indices: 
       edges: []
@@ -788,10 +788,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_31
       rect:
         serializedVersion: 2
-        x: 16
-        y: 144
-        width: 16
-        height: 16
+        x: 38
+        y: 143
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,8 +800,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35f424ab33d191b42971190f84feadd1
-      internalID: -1838689114
+      spriteID: 6d6fbc000d52b3041a09d90241902a6f
+      internalID: -1138280001
       vertices: []
       indices: 
       edges: []
@@ -810,10 +810,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_32
       rect:
         serializedVersion: 2
-        x: 32
-        y: 144
-        width: 16
-        height: 16
+        x: 51
+        y: 143
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,8 +822,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 567a03be5b34db243be8aa23c86756a1
-      internalID: 466309703
+      spriteID: 07fc3bbe121fe7442a301c26e9a7aa31
+      internalID: 1263722605
       vertices: []
       indices: 
       edges: []
@@ -832,10 +832,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_33
       rect:
         serializedVersion: 2
-        x: 48
-        y: 144
-        width: 16
-        height: 16
+        x: 64
+        y: 143
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,8 +844,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c76fd11e70d668e48a6c7468ce576b6a
-      internalID: -1398564137
+      spriteID: 02d370e521dfee34b92bb7ecc4288f8a
+      internalID: 1847258001
       vertices: []
       indices: 
       edges: []
@@ -854,10 +854,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_34
       rect:
         serializedVersion: 2
-        x: 64
-        y: 144
-        width: 16
-        height: 16
+        x: 77
+        y: 143
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -866,8 +866,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a45d70428c887e49981580a060630ff
-      internalID: -2043385665
+      spriteID: d46af8ab5d94ba7409c2e494a4ac5b4f
+      internalID: 132958246
       vertices: []
       indices: 
       edges: []
@@ -876,10 +876,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_35
       rect:
         serializedVersion: 2
-        x: 80
-        y: 144
-        width: 16
-        height: 16
+        x: 90
+        y: 143
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -888,8 +888,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aef7c865bcb62be4fb3a58f3905b1a53
-      internalID: -555634133
+      spriteID: 32e6ba3b94265aa4a979e9912e56c821
+      internalID: -1244138018
       vertices: []
       indices: 
       edges: []
@@ -898,10 +898,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_36
       rect:
         serializedVersion: 2
-        x: 0
+        x: 25
         y: 128
-        width: 16
-        height: 16
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -910,8 +910,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d13ee2e1595de3499989535d1c188c7
-      internalID: -717673384
+      spriteID: cda846d8c21ec454b92fb6666e201c4f
+      internalID: 996298425
       vertices: []
       indices: 
       edges: []
@@ -920,10 +920,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_37
       rect:
         serializedVersion: 2
-        x: 16
+        x: 38
         y: 128
-        width: 16
-        height: 16
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -932,8 +932,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c6f02ae1e23fa844849ddb65352e81e
-      internalID: -1092125707
+      spriteID: 15d77acc361735242b4a6d3f81e13dc7
+      internalID: 1933687900
       vertices: []
       indices: 
       edges: []
@@ -942,10 +942,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_38
       rect:
         serializedVersion: 2
-        x: 32
+        x: 51
         y: 128
-        width: 16
-        height: 16
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -954,8 +954,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8d30677f0ea0c342a220f9708692668
-      internalID: 829100827
+      spriteID: 16118faf1e1831d458090899ae810c37
+      internalID: 1331043503
       vertices: []
       indices: 
       edges: []
@@ -964,10 +964,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_39
       rect:
         serializedVersion: 2
-        x: 48
+        x: 64
         y: 128
-        width: 16
-        height: 16
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -976,8 +976,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e1ac5665dc726a468e81887661ba3a6
-      internalID: 1996912544
+      spriteID: 71555864a05c2294390e03c5e21f29eb
+      internalID: -252276984
       vertices: []
       indices: 
       edges: []
@@ -986,10 +986,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_40
       rect:
         serializedVersion: 2
-        x: 64
+        x: 77
         y: 128
-        width: 16
-        height: 16
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -998,8 +998,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51859bb50c53f3540bef0820f9c17d0f
-      internalID: 1128399190
+      spriteID: 41014492bb7f8374c9f167ae96c8ef56
+      internalID: 506236426
       vertices: []
       indices: 
       edges: []
@@ -1008,10 +1008,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_41
       rect:
         serializedVersion: 2
-        x: 80
+        x: 90
         y: 128
-        width: 16
-        height: 16
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1020,8 +1020,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aded8b4516b111a40ae70042815c5243
-      internalID: 1968619283
+      spriteID: 83bcb429e99c26b429a95104c6dded80
+      internalID: -2006931456
       vertices: []
       indices: 
       edges: []
@@ -1030,10 +1030,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_42
       rect:
         serializedVersion: 2
-        x: 0
-        y: 112
-        width: 16
-        height: 16
+        x: 25
+        y: 113
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1042,8 +1042,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd74f3caf6eb3904b926e0a996837531
-      internalID: 381208258
+      spriteID: a1ddc158fcce03f4fb7aa0595401fd00
+      internalID: -668261813
       vertices: []
       indices: 
       edges: []
@@ -1052,10 +1052,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_43
       rect:
         serializedVersion: 2
-        x: 16
-        y: 112
-        width: 16
-        height: 16
+        x: 38
+        y: 113
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1064,8 +1064,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc2a019205de643408a797affd4aa3cb
-      internalID: 2017447316
+      spriteID: 975ac13136d23d74ca6d6107ab02e285
+      internalID: 1031866752
       vertices: []
       indices: 
       edges: []
@@ -1074,10 +1074,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_44
       rect:
         serializedVersion: 2
-        x: 32
-        y: 112
-        width: 16
-        height: 16
+        x: 51
+        y: 113
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1086,8 +1086,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81beb2f7317179b4ab268fe864a51dc0
-      internalID: 1408595415
+      spriteID: 047e3a32470e82843aabdc79263d92b5
+      internalID: -2073135687
       vertices: []
       indices: 
       edges: []
@@ -1096,10 +1096,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_45
       rect:
         serializedVersion: 2
-        x: 48
-        y: 112
-        width: 16
-        height: 16
+        x: 64
+        y: 113
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1108,8 +1108,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7e0a1efb1c80654580c6950e402bde4
-      internalID: -2069724589
+      spriteID: 1cc8b89f589861c4c805dc07e0036a32
+      internalID: -2117338534
       vertices: []
       indices: 
       edges: []
@@ -1118,10 +1118,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_46
       rect:
         serializedVersion: 2
-        x: 64
-        y: 112
-        width: 16
-        height: 16
+        x: 77
+        y: 113
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1130,8 +1130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76bf3f114f10761449b29866541239c3
-      internalID: 1413312750
+      spriteID: 9645a3119982b6442a1216d9a8ec100d
+      internalID: -1320104980
       vertices: []
       indices: 
       edges: []
@@ -1140,10 +1140,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_47
       rect:
         serializedVersion: 2
-        x: 80
-        y: 112
-        width: 16
-        height: 16
+        x: 90
+        y: 113
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1152,8 +1152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffad70ccaee415647a97b00f07dbc2ec
-      internalID: -1993528822
+      spriteID: 6f7d4883e9c61fa41843233c911a1ad1
+      internalID: 891714292
       vertices: []
       indices: 
       edges: []
@@ -1162,10 +1162,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 16
-        height: 16
+        x: 25
+        y: 98
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1174,8 +1174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 239331b251ad3524d8b3fcaef1cc9c5f
-      internalID: -887282791
+      spriteID: 0a42d8bce0c7e6f47a4e69e4fc0966be
+      internalID: -1429980046
       vertices: []
       indices: 
       edges: []
@@ -1184,10 +1184,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_49
       rect:
         serializedVersion: 2
-        x: 16
-        y: 96
-        width: 16
-        height: 16
+        x: 38
+        y: 98
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1196,8 +1196,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6be55d168a73567498b52e296389cedb
-      internalID: 1025381277
+      spriteID: 321abc5f9eede7045a38fc1862993bde
+      internalID: -942175631
       vertices: []
       indices: 
       edges: []
@@ -1206,10 +1206,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_50
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 16
-        height: 16
+        x: 51
+        y: 98
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1218,8 +1218,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3fd194e5ec050a4a8909e8ece1fc542
-      internalID: 654623892
+      spriteID: 16292c21c2ad67f40bbe5b46f0d7690d
+      internalID: -1494333482
       vertices: []
       indices: 
       edges: []
@@ -1228,10 +1228,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_51
       rect:
         serializedVersion: 2
-        x: 48
-        y: 96
-        width: 16
-        height: 16
+        x: 64
+        y: 98
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1240,8 +1240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e56846570970fd49a5b854ea024193b
-      internalID: 594521824
+      spriteID: c5be4faf5923384439311d8d81e9aa5f
+      internalID: -2085831834
       vertices: []
       indices: 
       edges: []
@@ -1250,10 +1250,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_52
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 16
-        height: 16
+        x: 77
+        y: 98
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1262,8 +1262,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7de30d7cb7cc8fa4fa584b511c586676
-      internalID: -1925988558
+      spriteID: a9c7a473f786e954e97a839ff89a021e
+      internalID: -1752202268
       vertices: []
       indices: 
       edges: []
@@ -1272,10 +1272,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_53
       rect:
         serializedVersion: 2
-        x: 80
-        y: 96
-        width: 16
-        height: 16
+        x: 90
+        y: 98
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1284,8 +1284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 337e238da8ab78140a7db45d503eff2f
-      internalID: 1886295936
+      spriteID: fad5c790a8d224d4d9876af1beffd579
+      internalID: -1384054845
       vertices: []
       indices: 
       edges: []
@@ -1294,10 +1294,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 80
-        width: 16
-        height: 16
+        x: 25
+        y: 83
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1306,8 +1306,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3c7f806dfa0d254d945110d4ce99b58
-      internalID: 1963918879
+      spriteID: 5e4b0aa13221b594eb9f8d40b8b9a9bc
+      internalID: -1070326561
       vertices: []
       indices: 
       edges: []
@@ -1316,10 +1316,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_55
       rect:
         serializedVersion: 2
-        x: 16
-        y: 80
-        width: 16
-        height: 16
+        x: 38
+        y: 83
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1328,8 +1328,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecb489da6c9beb04893e069559d7ef62
-      internalID: -1005026083
+      spriteID: 9aca1049b6b8edb409f533c9130b5c8c
+      internalID: 983943247
       vertices: []
       indices: 
       edges: []
@@ -1338,10 +1338,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_56
       rect:
         serializedVersion: 2
-        x: 32
-        y: 80
-        width: 16
-        height: 16
+        x: 51
+        y: 83
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1350,8 +1350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23fd1369a7c2d884a9c10181a44b8df3
-      internalID: -553052184
+      spriteID: a8cd02b72bf0e76468404876fdbd41d0
+      internalID: 1662030881
       vertices: []
       indices: 
       edges: []
@@ -1360,10 +1360,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_57
       rect:
         serializedVersion: 2
-        x: 48
-        y: 80
-        width: 16
-        height: 16
+        x: 64
+        y: 83
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1372,8 +1372,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ae62a7dcbe40164b9f40e0edf1680c8
-      internalID: 599133309
+      spriteID: 347a8375b553b0c4a81b5eb34579619b
+      internalID: -627594470
       vertices: []
       indices: 
       edges: []
@@ -1382,10 +1382,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_58
       rect:
         serializedVersion: 2
-        x: 64
-        y: 80
-        width: 16
-        height: 16
+        x: 77
+        y: 83
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1394,8 +1394,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 686290fbeac01624b97ff3eebb7aa64e
-      internalID: 1245891332
+      spriteID: 11a448f0f1989534db4800468eed6f20
+      internalID: -212393005
       vertices: []
       indices: 
       edges: []
@@ -1404,10 +1404,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_59
       rect:
         serializedVersion: 2
-        x: 80
-        y: 80
-        width: 16
-        height: 16
+        x: 90
+        y: 83
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1416,8 +1416,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14fbfa7e39965bc49ac450f722fc9ee4
-      internalID: 1323623425
+      spriteID: 39a0513a04ec6884fb1aa23200b8abe9
+      internalID: -1452627484
       vertices: []
       indices: 
       edges: []
@@ -1426,10 +1426,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_60
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 16
-        height: 16
+        x: 25
+        y: 68
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1438,8 +1438,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74cf2336877de4d4d9f3c9e6f7f1f61e
-      internalID: -303088083
+      spriteID: 86ff00b67a1edc24ea03379dea284076
+      internalID: 182536583
       vertices: []
       indices: 
       edges: []
@@ -1448,10 +1448,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_61
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
+        x: 38
+        y: 68
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1460,8 +1460,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e32ac2a9097adc4f82766981c87c6fe
-      internalID: 1998704158
+      spriteID: 55a8ee8a0c3dd2447a6f1b7627d0489f
+      internalID: 417379520
       vertices: []
       indices: 
       edges: []
@@ -1470,10 +1470,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_62
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
+        x: 51
+        y: 68
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1482,8 +1482,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2fda714193572441a3307b7f26cd1fd
-      internalID: 209986218
+      spriteID: 6f3177838a8d05343ae936555e4213ce
+      internalID: -433216964
       vertices: []
       indices: 
       edges: []
@@ -1493,9 +1493,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 64
-        width: 16
-        height: 16
+        y: 68
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1504,8 +1504,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8af22b65b76645843904e236642b332c
-      internalID: 520116274
+      spriteID: 1c391f7e766145e4ab591b61b9f3b6b3
+      internalID: 1221239843
       vertices: []
       indices: 
       edges: []
@@ -1514,10 +1514,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_64
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
+        x: 77
+        y: 68
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1526,8 +1526,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c29435ab049e38d48be90afa8d29a3c7
-      internalID: 1601839804
+      spriteID: 3e5587f733690bb46b1ed4b14a93fea6
+      internalID: 117146702
       vertices: []
       indices: 
       edges: []
@@ -1536,10 +1536,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_65
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
+        x: 90
+        y: 68
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1548,8 +1548,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af3bf5ab392353649a731b29e7119569
-      internalID: 1760197066
+      spriteID: 552cabad8fc284946b1d50fb5833167c
+      internalID: 595479746
       vertices: []
       indices: 
       edges: []
@@ -1558,10 +1558,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_66
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
+        x: 25
+        y: 53
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1570,8 +1570,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84812fb395b23be498c05ac2401ed842
-      internalID: -1288230752
+      spriteID: e3fcee9cfb1ddf042aaf1cdd742aced0
+      internalID: 860630396
       vertices: []
       indices: 
       edges: []
@@ -1580,10 +1580,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_67
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
+        x: 38
+        y: 53
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1592,8 +1592,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3508116a5dbe0d042bd2d1e611a0a206
-      internalID: 1656034489
+      spriteID: 37d1c122fba50fd45baf1531ac15aa95
+      internalID: -1191684589
       vertices: []
       indices: 
       edges: []
@@ -1602,10 +1602,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_68
       rect:
         serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 16
+        x: 51
+        y: 53
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1614,8 +1614,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1230127c704f40488d1d2e3607d3a9f
-      internalID: -2024430784
+      spriteID: 4d7599e6e225ad7439cdabcb58c5f639
+      internalID: 1204216504
       vertices: []
       indices: 
       edges: []
@@ -1624,10 +1624,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_69
       rect:
         serializedVersion: 2
-        x: 80
-        y: 48
-        width: 16
-        height: 16
+        x: 64
+        y: 53
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1636,8 +1636,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a32e798e72aff442a2564809745d75d
-      internalID: 1772607358
+      spriteID: e43c74109e4446f40b51d82a199ec6a0
+      internalID: 1325344598
       vertices: []
       indices: 
       edges: []
@@ -1646,10 +1646,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_70
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
+        x: 77
+        y: 53
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1658,8 +1658,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ae185ff8a8976c49934c4c6ca0d160a
-      internalID: 1660148859
+      spriteID: bc2a04d0bd96b6f41a8fc7f1d3ac0e60
+      internalID: 76584412
       vertices: []
       indices: 
       edges: []
@@ -1668,10 +1668,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_71
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 90
+        y: 53
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1680,8 +1680,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc9af10eb7139334ebbd34649ddb111c
-      internalID: -1401722185
+      spriteID: e5648dc0751cc9c46bd5feb6adc20659
+      internalID: -402896843
       vertices: []
       indices: 
       edges: []
@@ -1690,10 +1690,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_72
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 25
+        y: 38
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1702,8 +1702,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec7bd93da8a22cc4da28e875909d6446
-      internalID: -2124074140
+      spriteID: fbba486e71b522c43a7444162d16fac2
+      internalID: 1995922777
       vertices: []
       indices: 
       edges: []
@@ -1712,10 +1712,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_73
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
+        x: 38
+        y: 38
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1724,8 +1724,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f718957f3b2ad341a517f2dc3e2a8a0
-      internalID: 731632107
+      spriteID: d4874a70f73acf94c88f83414be7cb24
+      internalID: 268185310
       vertices: []
       indices: 
       edges: []
@@ -1734,10 +1734,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_74
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 16
+        x: 51
+        y: 38
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1746,8 +1746,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2aea2eb75d09e18409e70843b703c4f6
-      internalID: 1263873132
+      spriteID: 75cd2bb0990713d40ad83ff6e6983d1f
+      internalID: 480835084
       vertices: []
       indices: 
       edges: []
@@ -1756,10 +1756,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_75
       rect:
         serializedVersion: 2
-        x: 80
-        y: 32
-        width: 16
-        height: 16
+        x: 64
+        y: 38
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1768,8 +1768,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b65f98b718c2ea34dab885cb5053c2b7
-      internalID: 1460319098
+      spriteID: 900d8653999946445ae67a998a251e3f
+      internalID: 402150189
       vertices: []
       indices: 
       edges: []
@@ -1778,10 +1778,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_76
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
+        x: 77
+        y: 38
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1790,8 +1790,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4594393363b3254391c464d37553f9d
-      internalID: -2042839723
+      spriteID: 143e7c494a7c52d4cb80d12de3617011
+      internalID: -2006640917
       vertices: []
       indices: 
       edges: []
@@ -1800,10 +1800,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_77
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 90
+        y: 38
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1812,8 +1812,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19d442361a105864c9935dde79bdade2
-      internalID: 1249117191
+      spriteID: 63e9c9bc4cedb5d42ad7de78ec9fc485
+      internalID: 553548190
       vertices: []
       indices: 
       edges: []
@@ -1822,10 +1822,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_78
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 25
+        y: 23
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1834,8 +1834,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fb836ecf7701e145a0b7d57bbfb845a
-      internalID: -1377443405
+      spriteID: 7cea2185853134644b5584357bb89849
+      internalID: 513162880
       vertices: []
       indices: 
       edges: []
@@ -1844,10 +1844,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_79
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
+        x: 38
+        y: 23
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1856,8 +1856,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b4fc74f5e720dd4abf4edabbf5088de
-      internalID: -699716290
+      spriteID: 7c678c54c3870b6488112802bc93a9bb
+      internalID: -62768484
       vertices: []
       indices: 
       edges: []
@@ -1866,10 +1866,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_80
       rect:
         serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
+        x: 51
+        y: 23
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1878,8 +1878,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 578f6ad1edb769d4db792b4379d10ebe
-      internalID: -1237583919
+      spriteID: 76f441ff8994daf4abf6b94874db9cec
+      internalID: 881522462
       vertices: []
       indices: 
       edges: []
@@ -1888,10 +1888,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_81
       rect:
         serializedVersion: 2
-        x: 80
-        y: 16
-        width: 16
-        height: 16
+        x: 64
+        y: 23
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1900,8 +1900,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 751c51519ba2f85429e41677d7616de8
-      internalID: 819325221
+      spriteID: 467f870a7286b5c468fca6198a5eaf83
+      internalID: -1573419147
       vertices: []
       indices: 
       edges: []
@@ -1910,10 +1910,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_82
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 77
+        y: 23
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1922,8 +1922,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5d8e866f684b2b49a7bf16b97df5b6d
-      internalID: -1784248388
+      spriteID: 38b9b987e8b71c64c94271bda87a4782
+      internalID: -2116384513
       vertices: []
       indices: 
       edges: []
@@ -1932,10 +1932,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_83
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
+        x: 90
+        y: 23
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1944,8 +1944,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 974456ccd87048043917d15aa24f9189
-      internalID: -1042559115
+      spriteID: 9caf02ee2a4a9fc4594d3cae758e501c
+      internalID: 39465073
       vertices: []
       indices: 
       edges: []
@@ -1954,10 +1954,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_84
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
+        x: 25
+        y: 8
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1966,8 +1966,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b454f12b2e587b44b27e35e95e5f75a
-      internalID: 313998648
+      spriteID: 172f8124acfa05e4e92ce9a116b6e841
+      internalID: 1785041264
       vertices: []
       indices: 
       edges: []
@@ -1976,10 +1976,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_85
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
+        x: 38
+        y: 8
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1988,8 +1988,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dd0dce750ef55840a430ba553ecde97
-      internalID: 1038630285
+      spriteID: 1b54b6299ffe7f4498a8f3d1bdf7e2c1
+      internalID: 893794114
       vertices: []
       indices: 
       edges: []
@@ -1998,10 +1998,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_86
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 16
+        x: 51
+        y: 8
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2010,8 +2010,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9712e2e29bcc8f4db7a41a4d00d5879
-      internalID: 1642299240
+      spriteID: 038a45bbb991d4047935b600b817f506
+      internalID: 52410643
       vertices: []
       indices: 
       edges: []
@@ -2020,10 +2020,10 @@ TextureImporter:
       name: gbstudio_seven_eleven_tileset_v2_87
       rect:
         serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 16
+        x: 64
+        y: 8
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2032,8 +2032,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e5199b98b88b0a45a6a21d0510ad4c7
-      internalID: -819200124
+      spriteID: 0e12618b5fbdcee44bb8123a8fadeb94
+      internalID: 416369177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gbstudio_seven_eleven_tileset_v2_88
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 8
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fc6e0945fb0684385447023fc8a490
+      internalID: -67977694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gbstudio_seven_eleven_tileset_v2_89
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 8
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122dfea0a78a3884c89f7417a06ca524
+      internalID: -1807248463
       vertices: []
       indices: 
       edges: []
@@ -2042,7 +2086,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3a69209d39694f3458d6d9e9a95a4513
+    spriteID: 4c9a3c4289f9ee4449ae110bd2173c9d
     internalID: 0
     vertices: []
     indices: 
@@ -2052,96 +2096,98 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":13.0,"y":15.0},"gridSpriteOffset":{"x":25.0,"y":7.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       gbstudio_seven_eleven_tileset_v2_0: -3368324437481112998
       gbstudio_seven_eleven_tileset_v2_1: -321812984390912436
-      gbstudio_seven_eleven_tileset_v2_10: 1012871567
-      gbstudio_seven_eleven_tileset_v2_11: -1695467108
-      gbstudio_seven_eleven_tileset_v2_12: 1235470403
-      gbstudio_seven_eleven_tileset_v2_13: 561277286
-      gbstudio_seven_eleven_tileset_v2_14: -1008794574
-      gbstudio_seven_eleven_tileset_v2_15: 589712679
-      gbstudio_seven_eleven_tileset_v2_16: -278432317
-      gbstudio_seven_eleven_tileset_v2_17: 704963905
-      gbstudio_seven_eleven_tileset_v2_18: 1091187424
-      gbstudio_seven_eleven_tileset_v2_19: 1100715521
-      gbstudio_seven_eleven_tileset_v2_2: -1144316210
-      gbstudio_seven_eleven_tileset_v2_20: -93730853
-      gbstudio_seven_eleven_tileset_v2_21: -1014409140
-      gbstudio_seven_eleven_tileset_v2_22: 1594806704
-      gbstudio_seven_eleven_tileset_v2_23: 1106350731
-      gbstudio_seven_eleven_tileset_v2_24: 1630762089
-      gbstudio_seven_eleven_tileset_v2_25: -487134809
-      gbstudio_seven_eleven_tileset_v2_26: -1725020322
-      gbstudio_seven_eleven_tileset_v2_27: 614163402
-      gbstudio_seven_eleven_tileset_v2_28: 834629536
-      gbstudio_seven_eleven_tileset_v2_29: 540212494
-      gbstudio_seven_eleven_tileset_v2_3: -861977604
-      gbstudio_seven_eleven_tileset_v2_30: -867112993
-      gbstudio_seven_eleven_tileset_v2_31: -1838689114
-      gbstudio_seven_eleven_tileset_v2_32: 466309703
-      gbstudio_seven_eleven_tileset_v2_33: -1398564137
-      gbstudio_seven_eleven_tileset_v2_34: -2043385665
-      gbstudio_seven_eleven_tileset_v2_35: -555634133
-      gbstudio_seven_eleven_tileset_v2_36: -717673384
-      gbstudio_seven_eleven_tileset_v2_37: -1092125707
-      gbstudio_seven_eleven_tileset_v2_38: 829100827
-      gbstudio_seven_eleven_tileset_v2_39: 1996912544
-      gbstudio_seven_eleven_tileset_v2_4: -728401072
-      gbstudio_seven_eleven_tileset_v2_40: 1128399190
-      gbstudio_seven_eleven_tileset_v2_41: 1968619283
-      gbstudio_seven_eleven_tileset_v2_42: 381208258
-      gbstudio_seven_eleven_tileset_v2_43: 2017447316
-      gbstudio_seven_eleven_tileset_v2_44: 1408595415
-      gbstudio_seven_eleven_tileset_v2_45: -2069724589
-      gbstudio_seven_eleven_tileset_v2_46: 1413312750
-      gbstudio_seven_eleven_tileset_v2_47: -1993528822
-      gbstudio_seven_eleven_tileset_v2_48: -887282791
-      gbstudio_seven_eleven_tileset_v2_49: 1025381277
-      gbstudio_seven_eleven_tileset_v2_5: 370910347
-      gbstudio_seven_eleven_tileset_v2_50: 654623892
-      gbstudio_seven_eleven_tileset_v2_51: 594521824
-      gbstudio_seven_eleven_tileset_v2_52: -1925988558
-      gbstudio_seven_eleven_tileset_v2_53: 1886295936
-      gbstudio_seven_eleven_tileset_v2_54: 1963918879
-      gbstudio_seven_eleven_tileset_v2_55: -1005026083
-      gbstudio_seven_eleven_tileset_v2_56: -553052184
-      gbstudio_seven_eleven_tileset_v2_57: 599133309
-      gbstudio_seven_eleven_tileset_v2_58: 1245891332
-      gbstudio_seven_eleven_tileset_v2_59: 1323623425
-      gbstudio_seven_eleven_tileset_v2_6: -687882151
-      gbstudio_seven_eleven_tileset_v2_60: -303088083
-      gbstudio_seven_eleven_tileset_v2_61: 1998704158
-      gbstudio_seven_eleven_tileset_v2_62: 209986218
-      gbstudio_seven_eleven_tileset_v2_63: 520116274
-      gbstudio_seven_eleven_tileset_v2_64: 1601839804
-      gbstudio_seven_eleven_tileset_v2_65: 1760197066
-      gbstudio_seven_eleven_tileset_v2_66: -1288230752
-      gbstudio_seven_eleven_tileset_v2_67: 1656034489
-      gbstudio_seven_eleven_tileset_v2_68: -2024430784
-      gbstudio_seven_eleven_tileset_v2_69: 1772607358
-      gbstudio_seven_eleven_tileset_v2_7: 103855911
-      gbstudio_seven_eleven_tileset_v2_70: 1660148859
-      gbstudio_seven_eleven_tileset_v2_71: -1401722185
-      gbstudio_seven_eleven_tileset_v2_72: -2124074140
-      gbstudio_seven_eleven_tileset_v2_73: 731632107
-      gbstudio_seven_eleven_tileset_v2_74: 1263873132
-      gbstudio_seven_eleven_tileset_v2_75: 1460319098
-      gbstudio_seven_eleven_tileset_v2_76: -2042839723
-      gbstudio_seven_eleven_tileset_v2_77: 1249117191
-      gbstudio_seven_eleven_tileset_v2_78: -1377443405
-      gbstudio_seven_eleven_tileset_v2_79: -699716290
-      gbstudio_seven_eleven_tileset_v2_8: 1826851591
-      gbstudio_seven_eleven_tileset_v2_80: -1237583919
-      gbstudio_seven_eleven_tileset_v2_81: 819325221
-      gbstudio_seven_eleven_tileset_v2_82: -1784248388
-      gbstudio_seven_eleven_tileset_v2_83: -1042559115
-      gbstudio_seven_eleven_tileset_v2_84: 313998648
-      gbstudio_seven_eleven_tileset_v2_85: 1038630285
-      gbstudio_seven_eleven_tileset_v2_86: 1642299240
-      gbstudio_seven_eleven_tileset_v2_87: -819200124
-      gbstudio_seven_eleven_tileset_v2_9: 284651132
+      gbstudio_seven_eleven_tileset_v2_10: 1609500176
+      gbstudio_seven_eleven_tileset_v2_11: -1179823239
+      gbstudio_seven_eleven_tileset_v2_12: 1865972229
+      gbstudio_seven_eleven_tileset_v2_13: 1231454437
+      gbstudio_seven_eleven_tileset_v2_14: -1239552983
+      gbstudio_seven_eleven_tileset_v2_15: -911258785
+      gbstudio_seven_eleven_tileset_v2_16: -1150827197
+      gbstudio_seven_eleven_tileset_v2_17: -565120166
+      gbstudio_seven_eleven_tileset_v2_18: 676802580
+      gbstudio_seven_eleven_tileset_v2_19: 920043166
+      gbstudio_seven_eleven_tileset_v2_2: -1475931114
+      gbstudio_seven_eleven_tileset_v2_20: -1860078412
+      gbstudio_seven_eleven_tileset_v2_21: -2131052334
+      gbstudio_seven_eleven_tileset_v2_22: -1387649566
+      gbstudio_seven_eleven_tileset_v2_23: -743300846
+      gbstudio_seven_eleven_tileset_v2_24: 993348334
+      gbstudio_seven_eleven_tileset_v2_25: -238254046
+      gbstudio_seven_eleven_tileset_v2_26: -1398564028
+      gbstudio_seven_eleven_tileset_v2_27: -1456041923
+      gbstudio_seven_eleven_tileset_v2_28: 1506492673
+      gbstudio_seven_eleven_tileset_v2_29: -521349322
+      gbstudio_seven_eleven_tileset_v2_3: -857976205
+      gbstudio_seven_eleven_tileset_v2_30: 771539210
+      gbstudio_seven_eleven_tileset_v2_31: -1138280001
+      gbstudio_seven_eleven_tileset_v2_32: 1263722605
+      gbstudio_seven_eleven_tileset_v2_33: 1847258001
+      gbstudio_seven_eleven_tileset_v2_34: 132958246
+      gbstudio_seven_eleven_tileset_v2_35: -1244138018
+      gbstudio_seven_eleven_tileset_v2_36: 996298425
+      gbstudio_seven_eleven_tileset_v2_37: 1933687900
+      gbstudio_seven_eleven_tileset_v2_38: 1331043503
+      gbstudio_seven_eleven_tileset_v2_39: -252276984
+      gbstudio_seven_eleven_tileset_v2_4: 1127565063
+      gbstudio_seven_eleven_tileset_v2_40: 506236426
+      gbstudio_seven_eleven_tileset_v2_41: -2006931456
+      gbstudio_seven_eleven_tileset_v2_42: -668261813
+      gbstudio_seven_eleven_tileset_v2_43: 1031866752
+      gbstudio_seven_eleven_tileset_v2_44: -2073135687
+      gbstudio_seven_eleven_tileset_v2_45: -2117338534
+      gbstudio_seven_eleven_tileset_v2_46: -1320104980
+      gbstudio_seven_eleven_tileset_v2_47: 891714292
+      gbstudio_seven_eleven_tileset_v2_48: -1429980046
+      gbstudio_seven_eleven_tileset_v2_49: -942175631
+      gbstudio_seven_eleven_tileset_v2_5: 928067079
+      gbstudio_seven_eleven_tileset_v2_50: -1494333482
+      gbstudio_seven_eleven_tileset_v2_51: -2085831834
+      gbstudio_seven_eleven_tileset_v2_52: -1752202268
+      gbstudio_seven_eleven_tileset_v2_53: -1384054845
+      gbstudio_seven_eleven_tileset_v2_54: -1070326561
+      gbstudio_seven_eleven_tileset_v2_55: 983943247
+      gbstudio_seven_eleven_tileset_v2_56: 1662030881
+      gbstudio_seven_eleven_tileset_v2_57: -627594470
+      gbstudio_seven_eleven_tileset_v2_58: -212393005
+      gbstudio_seven_eleven_tileset_v2_59: -1452627484
+      gbstudio_seven_eleven_tileset_v2_6: 191375072
+      gbstudio_seven_eleven_tileset_v2_60: 182536583
+      gbstudio_seven_eleven_tileset_v2_61: 417379520
+      gbstudio_seven_eleven_tileset_v2_62: -433216964
+      gbstudio_seven_eleven_tileset_v2_63: 1221239843
+      gbstudio_seven_eleven_tileset_v2_64: 117146702
+      gbstudio_seven_eleven_tileset_v2_65: 595479746
+      gbstudio_seven_eleven_tileset_v2_66: 860630396
+      gbstudio_seven_eleven_tileset_v2_67: -1191684589
+      gbstudio_seven_eleven_tileset_v2_68: 1204216504
+      gbstudio_seven_eleven_tileset_v2_69: 1325344598
+      gbstudio_seven_eleven_tileset_v2_7: 453109971
+      gbstudio_seven_eleven_tileset_v2_70: 76584412
+      gbstudio_seven_eleven_tileset_v2_71: -402896843
+      gbstudio_seven_eleven_tileset_v2_72: 1995922777
+      gbstudio_seven_eleven_tileset_v2_73: 268185310
+      gbstudio_seven_eleven_tileset_v2_74: 480835084
+      gbstudio_seven_eleven_tileset_v2_75: 402150189
+      gbstudio_seven_eleven_tileset_v2_76: -2006640917
+      gbstudio_seven_eleven_tileset_v2_77: 553548190
+      gbstudio_seven_eleven_tileset_v2_78: 513162880
+      gbstudio_seven_eleven_tileset_v2_79: -62768484
+      gbstudio_seven_eleven_tileset_v2_8: -910304142
+      gbstudio_seven_eleven_tileset_v2_80: 881522462
+      gbstudio_seven_eleven_tileset_v2_81: -1573419147
+      gbstudio_seven_eleven_tileset_v2_82: -2116384513
+      gbstudio_seven_eleven_tileset_v2_83: 39465073
+      gbstudio_seven_eleven_tileset_v2_84: 1785041264
+      gbstudio_seven_eleven_tileset_v2_85: 893794114
+      gbstudio_seven_eleven_tileset_v2_86: 52410643
+      gbstudio_seven_eleven_tileset_v2_87: 416369177
+      gbstudio_seven_eleven_tileset_v2_88: -67977694
+      gbstudio_seven_eleven_tileset_v2_89: -1807248463
+      gbstudio_seven_eleven_tileset_v2_9: 990861160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
