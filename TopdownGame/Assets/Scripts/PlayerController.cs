@@ -2,6 +2,8 @@ using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SocialPlatforms.Impl;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -31,14 +33,25 @@ public class PlayerController : MonoBehaviour
 
     private float timer = 0f;
 
+    public int maxHp = 3;
+
+    private int currentHp;
+
+    private bool isInvincible = false;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
 
         currentSprites = spriteDown;
+
+        currentHp = maxHp;
+
         sr.sprite = currentSprites[0];
     }
+
+
 
     public void OnMove(InputValue value)
     {
@@ -62,6 +75,32 @@ public class PlayerController : MonoBehaviour
                     ChangeSprites(spriteDown);
             }
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (isInvincible) return;
+
+        currentHp -= damage;
+        Debug.Log("현재 체력 : " + currentHp);
+
+        if (currentHp <= 0)
+        {
+            Die();
+            return;
+        }
+        
+
+        StartCoroutine(InvincibleCoroutine());
+    }
+
+    private IEnumerator InvincibleCoroutine()
+    {
+        isInvincible = true;
+
+        yield return new WaitForSeconds(1.0f);
+
+        isInvincible = false;
     }
 
     private void Update()
@@ -101,6 +140,13 @@ public class PlayerController : MonoBehaviour
         frameIndex = 0;
         timer = 0f;
         sr.sprite = currentSprites[frameIndex];
+    }
+
+    private void Die()
+    {
+        Debug.Log("플레이어 사망");
+
+        SceneManager.LoadScene("ReadyScene");
     }
 
     /*private void OnTriggerEnter2D(Collider2D collision)
