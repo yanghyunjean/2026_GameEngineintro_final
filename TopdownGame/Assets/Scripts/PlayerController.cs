@@ -39,6 +39,11 @@ public class PlayerController : MonoBehaviour
 
     private bool isInvincible = false;
 
+    public GameObject projectilePrefab;
+    public Transform firePoint;
+
+    private Vector2 lastDirection = Vector2.down;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -60,6 +65,9 @@ public class PlayerController : MonoBehaviour
 
         if (input.sqrMagnitude > 0.01f)
         {
+            lastDirection = input.normalized;
+
+
             if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
             {
                 if (input.x > 0)
@@ -105,6 +113,12 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            ThrowObject();
+        }
+
+        // 서있을 때
         if (input.sqrMagnitude <= 0.01f)
         {
             frameIndex = 0;
@@ -112,6 +126,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        // 이동 애니메이션
         timer += Time.deltaTime;
 
         if (timer >= frameTime)
@@ -123,12 +138,29 @@ public class PlayerController : MonoBehaviour
                 frameIndex = 0;
 
             sr.sprite = currentSprites[frameIndex];
+
         }
     }
 
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + velocity * Time.fixedDeltaTime);
+
+    }
+
+    private void ThrowObject()
+    {
+        Debug.Log("발사!");
+
+        GameObject obj =
+            Instantiate(projectilePrefab,
+            firePoint.position,
+            Quaternion.identity);
+
+        Projectile projectile =
+            obj.GetComponent<Projectile>();
+
+        projectile.SetDirection(lastDirection);
     }
 
     private void ChangeSprites(Sprite[] newSprites)
