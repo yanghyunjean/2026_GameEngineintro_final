@@ -118,7 +118,7 @@ public class PlayerController : MonoBehaviour
             ThrowObject();
         }
 
-        // 서있을 때
+        
         if (input.sqrMagnitude <= 0.01f)
         {
             frameIndex = 0;
@@ -126,7 +126,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        // 이동 애니메이션
+        
         timer += Time.deltaTime;
 
         if (timer >= frameTime)
@@ -178,7 +178,7 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log("플레이어 사망");
 
-        SceneManager.LoadScene("ReadyScene");
+        SceneManager.LoadScene("TitleScene");
     }
 
     /*private void OnTriggerEnter2D(Collider2D collision)
