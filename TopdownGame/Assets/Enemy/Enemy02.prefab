@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3697040836681391397}
   - component: {fileID: 414741063582858954}
   m_Layer: 0
-  m_Name: Enemy01
+  m_Name: Enemy02
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -134,17 +134,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   spriteUp:
-  - {fileID: -5729172336786608728, guid: c3691dca0c95c6d45ae6444ff2a77422, type: 3}
-  - {fileID: -6598597602774827680, guid: a7bba50a6ed08dd49ae454ddd572c1ea, type: 3}
+  - {fileID: 322708892959007542, guid: 0e567c9b9e6c19f478b082981e5c75a9, type: 3}
+  - {fileID: -1747828567376857360, guid: 813253aa3fb658b41a36e8d2d922a926, type: 3}
   spriteDown:
-  - {fileID: -5047329219357481875, guid: 92698dfe11a7b334c9cffcc5ec2b784b, type: 3}
-  - {fileID: -84952999028286074, guid: 1f3467f34a86135489cebb02b08e0f1b, type: 3}
+  - {fileID: 2115164170070813536, guid: 531fc2cb528c702499bdcf01b277b4b8, type: 3}
+  - {fileID: 8956484089021720871, guid: abe9348a710ab8e4780443e79e929caa, type: 3}
   spriteLeft:
-  - {fileID: 2357005204426564430, guid: 63ac71f22410fb2439a58b39f4c2b327, type: 3}
-  - {fileID: -7765523129499133768, guid: 80af72ac0d1c0d14bb06ab1266390cc5, type: 3}
+  - {fileID: 2115164170070813536, guid: 531fc2cb528c702499bdcf01b277b4b8, type: 3}
+  - {fileID: -1966185712865268134, guid: a0d201fb63bc6b34ab9a5e6e793debb8, type: 3}
   spriteRight:
-  - {fileID: -825865188666088428, guid: 26df29bb8b781b24f89d39ed61af829b, type: 3}
-  - {fileID: 7649429486314061146, guid: 56f5168d17558bc42989de94dc43c0da, type: 3}
+  - {fileID: 8956484089021720871, guid: abe9348a710ab8e4780443e79e929caa, type: 3}
+  - {fileID: 3352322523676430659, guid: de80878e33ff213419d05ac4f868e7b1, type: 3}
   frameTime: 0.15
   moveSpeed: 2
   detectRange: 50

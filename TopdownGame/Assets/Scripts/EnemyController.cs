@@ -2,6 +2,21 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    public Sprite[] spriteUp;
+    public Sprite[] spriteDown;
+    public Sprite[] spriteLeft;
+    public Sprite[] spriteRight;
+
+    public float frameTime = 0.15f;
+
+    private SpriteRenderer sr;
+    private Sprite[] currentSprites;
+
+    private int frameIndex = 0;
+    private float timer = 0f;
+
+    private Vector2 moveDirection;
+
     private Transform player;
 
     public float moveSpeed = 2f;
@@ -12,6 +27,10 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
+
+        currentSprites = spriteDown;
+        sr.sprite = currentSprites[0];
 
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
 
@@ -31,12 +50,64 @@ public class EnemyController : MonoBehaviour
         {
             Vector2 dir = (player.position - transform.position).normalized;
 
+            moveDirection = dir;
+
+            UpdateDirectionSprites(dir);
+
             rb.MovePosition(
                 rb.position + dir * moveSpeed * Time.fixedDeltaTime
             );
         }
+        else
+        {
+            moveDirection = Vector2.zero;
+        }
     }
 
+    private void UpdateDirectionSprites(Vector2 dir)
+    {
+        Sprite[] targetSprites;
+
+        if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+        {
+            targetSprites = dir.x > 0 ? spriteRight : spriteLeft;
+        }
+        else
+        {
+            targetSprites = dir.y > 0 ? spriteUp : spriteDown;
+        }
+
+        if (currentSprites != targetSprites)
+        {
+            currentSprites = targetSprites;
+            frameIndex = 0;
+            timer = 0f;
+            sr.sprite = currentSprites[0];
+        }
+    }
+
+    void Update()
+    {
+        if (moveDirection.sqrMagnitude <= 0.01f)
+        {
+            frameIndex = 0;
+            sr.sprite = currentSprites[frameIndex];
+            return;
+        }
+
+        timer += Time.deltaTime;
+
+        if (timer >= frameTime)
+        {
+            timer = 0f;
+            frameIndex++;
+
+            if (frameIndex >= currentSprites.Length)
+                frameIndex = 0;
+
+            sr.sprite = currentSprites[frameIndex];
+        }
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

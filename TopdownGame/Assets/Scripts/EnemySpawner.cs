@@ -1,10 +1,9 @@
 using UnityEngine;
 using System.Collections;
 
-
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab;
+    public GameObject[] enemyPrefabs;
     public Transform[] spawnPoints;
 
     public float minSpawnTime = 2f;
@@ -32,6 +31,9 @@ public class EnemySpawner : MonoBehaviour
         Transform point =
             spawnPoints[Random.Range(0, spawnPoints.Length)];
 
-        Instantiate(enemyPrefab, point.position, Quaternion.identity);
+        GameObject enemy =
+            enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
+
+        Instantiate(enemy, point.position, Quaternion.identity);
     }
 }
