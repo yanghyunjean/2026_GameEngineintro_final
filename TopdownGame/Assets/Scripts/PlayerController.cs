@@ -39,6 +39,8 @@ public class PlayerController : MonoBehaviour
 
     private bool isInvincible = false;
 
+    public HeartUI heartUI;
+
     public GameObject projectilePrefab;
     public Transform firePoint;
 
@@ -54,6 +56,7 @@ public class PlayerController : MonoBehaviour
         currentHp = maxHp;
 
         sr.sprite = currentSprites[0];
+        heartUI.UpdateHeart(currentHp);
     }
 
 
@@ -90,6 +93,7 @@ public class PlayerController : MonoBehaviour
         if (isInvincible) return;
 
         currentHp -= damage;
+        heartUI.UpdateHeart(currentHp);
         Debug.Log("현재 체력 : " + currentHp);
 
         if (currentHp <= 0)

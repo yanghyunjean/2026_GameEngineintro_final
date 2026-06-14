@@ -12,7 +12,11 @@ public class GameDataManager : MonoBehaviour
 
     public int isTutorialFinished;
 
+    private const string TUTORIAL_KEY = "TUTORIAL";
+
     private string savePath;
+
+
 
     private void Awake()
     {
@@ -110,7 +114,7 @@ public class GameDataManager : MonoBehaviour
 
     public void LoadPlayerPrefs()
     {
-        isTutorialFinished = PlayerPrefs.GetInt("Tutorial", 0);
+        isTutorialFinished = PlayerPrefs.GetInt(TUTORIAL_KEY, 0);
     }
 
     public void SavePlayerPrefs()
