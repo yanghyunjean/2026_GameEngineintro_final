@@ -81009,6 +81009,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1463251311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1873374512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1873374514}
+  - component: {fileID: 1873374513}
+  m_Layer: 0
+  m_Name: itemspawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1873374513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873374512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48b6081b52c24d4c9b88f721194f965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSpawner
+  itemPrefab: {fileID: 6674926765080268788, guid: 071e56c336ce5694ca79689de1f34a11, type: 3}
+  itemDatas:
+  - {fileID: 11400000, guid: 50a3d5fc04578a044bccfe62921364a5, type: 2}
+  - {fileID: 11400000, guid: cba11d7bd5c7520469f413130c3999aa, type: 2}
+  - {fileID: 11400000, guid: 7aa2ec3eaf7aa5e4191bb36f9dff2f84, type: 2}
+  spawnInterval: 15
+  minPos: {x: -15, y: 0}
+  maxPos: {x: 15, y: 0}
+--- !u!4 &1873374514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873374512}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.16986, y: -0.03172, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1878834271
 GameObject:
   m_ObjectHideFlags: 0
@@ -81245,3 +81297,4 @@ SceneRoots:
   - {fileID: 735093464}
   - {fileID: 700624516}
   - {fileID: 1080027906}
+  - {fileID: 1873374514}

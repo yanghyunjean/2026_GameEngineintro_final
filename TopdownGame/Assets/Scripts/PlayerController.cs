@@ -185,21 +185,63 @@ public class PlayerController : MonoBehaviour
         SceneManager.LoadScene("TitleScene");
     }
 
-    /*private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Item"))
+        ItemObject itemObject = collision.GetComponent<ItemObject>();
+
+        if (itemObject != null)
         {
-            ItemObject item = collision GetComponent<ItemObject>();
+            UseItem(itemObject.itemData);
 
-            score += item GetPoint();
-
-            GameDataManager.instance.playerData.collectedItems.Add(item.GetItem());
-
-            scoreText.text = score.ToString();
             Destroy(collision.gameObject);
-
-            GameDataManager.instance.SaveData(GameDataManager.Instance.playerData);
         }
     }
-    */
+
+    private void UseItem(ItemData item)
+    {
+        switch (item.itemType)
+        {
+            case ItemType.Heal:
+
+                currentHp += item.healAmount;
+
+                if (currentHp > maxHp)
+                    currentHp = maxHp;
+
+                currentHp += item.healAmount;
+
+                currentHp = Mathf.Clamp(currentHp, 0, maxHp);
+
+                heartUI.UpdateHeart(currentHp);
+                break;
+
+            case ItemType.Speed:
+
+                StartCoroutine(SpeedBoost(item));
+                break;
+
+            case ItemType.Invincible:
+
+                StartCoroutine(InvincibleItem(item));
+                break;
+        }
+    }
+
+    private IEnumerator SpeedBoost(ItemData item)
+    {
+        moveSpeed *= item.speedMultiplier;
+
+        yield return new WaitForSeconds(item.duration);
+
+        moveSpeed /= item.speedMultiplier;
+    }
+
+    private IEnumerator InvincibleItem(ItemData item)
+    {
+        isInvincible = true;
+
+        yield return new WaitForSeconds(item.duration);
+
+        isInvincible = false;
+    }
 }
