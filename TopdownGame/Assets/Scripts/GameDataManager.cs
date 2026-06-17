@@ -1,22 +1,23 @@
 using System.IO;
-using UnityEditor.Overlays;
 using UnityEngine;
 
 public class GameDataManager : MonoBehaviour
 {
     public static GameDataManager Instance;
 
-    public GameSettingData gameSettingData;
+    // ===== 런 데이터 =====
+    public int score;
+    public int killCount;
+    public float survivalTime;
 
+    // ===== 재화 / 성장 =====
+    public int gold;
+    public int bestScore;
+
+    // ===== 저장 데이터 =====
     public SaveData saveData;
 
-    public int isTutorialFinished;
-
-    private const string TUTORIAL_KEY = "TUTORIAL";
-
     private string savePath;
-
-
 
     private void Awake()
     {
@@ -28,7 +29,6 @@ public class GameDataManager : MonoBehaviour
             savePath = Application.persistentDataPath + "/saveData.json";
 
             LoadJsonData();
-            LoadPlayerPrefs();
         }
         else
         {
@@ -36,62 +36,65 @@ public class GameDataManager : MonoBehaviour
         }
     }
 
-    /*
-    public void UseHealthItem(HealthItemData item)
+    // =========================
+    // 점수 추가
+    // =========================
+    public void AddScore(int amount)
     {
-        int maxHp = GetMaxHp();
-
-        saveData.currentHp += item.healAmount;
-
-        if (saveData.currentHp > maxHp)
-            saveData.currentHp = maxHp;
-
-        SaveJsonData();
+        score += amount;
     }
 
-     public int GetPlayerHp()
-  {
-      int baseHp = gameSettingData.startHp;
-      int bonusHp = gameSettingData.hpBonusPerDeath;
-
-      return baseHp * bonusHp * saveData.deathCount;
-  }
-
-  public int GetPlayerAttack()
-  {
-      int baseAttack = gameSettingData.startAttack;
-      int bonusAttack = gameSettingData.atkBonusPerDeath;
-      return baseAttack * bonusAttack * saveData.deathCount;
-  }
-    */
-    public float GetPlayerMoveSpeed()
+    // =========================
+    // 보상 계산 (게임 종료 시)
+    // =========================
+    public void CalculateReward()
     {
-        return gameSettingData.playerMoveSpeed;
+        int reward =
+            (score / 10) +
+            (killCount * 5) +
+            Mathf.FloorToInt(survivalTime);
+
+        gold += reward;
     }
 
-
+    // =========================
+    // 게임 종료 처리
+    // =========================
     public void SaveGameResult()
     {
-        
+        if (score > bestScore)
+            bestScore = score;
+
         SaveJsonData();
     }
 
+    // =========================
+    // 게임 시작/재시작 초기화
+    // =========================
+    public void ResetRunData()
+    {
+        score = 0;
+        killCount = 0;
+        survivalTime = 0f;
+    }
+
+    // =========================
+    // JSON 저장
+    // =========================
     public void SaveJsonData()
     {
         string json = JsonUtility.ToJson(saveData, true);
         File.WriteAllText(savePath, json);
 
-        Debug.Log("Json 저장 완료 " + savePath);
-
+        Debug.Log("저장 완료: " + savePath);
     }
 
     public void LoadJsonData()
     {
-        if(File.Exists(savePath))
+        if (File.Exists(savePath))
         {
             string json = File.ReadAllText(savePath);
             saveData = JsonUtility.FromJson<SaveData>(json);
-
         }
         else
         {
@@ -102,34 +105,14 @@ public class GameDataManager : MonoBehaviour
 
     public void DeleteJsonData()
     {
-        if(File.Exists(savePath))
+        if (File.Exists(savePath))
         {
             File.Delete(savePath);
         }
+
         saveData = new SaveData();
         SaveJsonData();
 
-        Debug.Log("Json 저장 데이터 삭제");
-    }
-
-    public void LoadPlayerPrefs()
-    {
-        isTutorialFinished = PlayerPrefs.GetInt(TUTORIAL_KEY, 0);
-    }
-
-    public void SavePlayerPrefs()
-    {
-        PlayerPrefs.SetInt("TUTORIAL", isTutorialFinished);
-        PlayerPrefs.Save();
-
-        Debug.Log("PlayerPrefs 저장완료");
-    }
-
-    public void DeletePlayerPrefs()
-    {
-        PlayerPrefs.DeleteKey("TUTORIAL");
-        LoadPlayerPrefs();
-
-        Debug.Log("PlayerPrefs 저장완료");
+        Debug.Log("저장 데이터 초기화");
     }
 }

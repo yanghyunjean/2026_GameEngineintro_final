@@ -16,11 +16,13 @@ public class EnemyController : MonoBehaviour
     private float timer = 0f;
 
     private Vector2 moveDirection;
-
     private Transform player;
 
     public float moveSpeed = 2f;
     public float detectRange = 10f;
+
+    public int maxHp = 3;
+    private int currentHp;
 
     private Rigidbody2D rb;
 
@@ -28,6 +30,8 @@ public class EnemyController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+
+        currentHp = maxHp;
 
         currentSprites = spriteDown;
         sr.sprite = currentSprites[0];
@@ -38,6 +42,27 @@ public class EnemyController : MonoBehaviour
         {
             player = playerObj.transform;
         }
+    }
+
+    //데미지 처리
+    public void TakeDamage(int damage)
+    {
+        currentHp -= damage;
+
+        if (currentHp <= 0)
+        {
+            Die();
+        }
+    }
+
+    //죽음 처리 + 점수
+    private void Die()
+    {
+        Debug.Log("Enemy 사망");
+
+        GameDataManager.Instance.AddScore(100);
+
+        Destroy(gameObject);
     }
 
     void FixedUpdate()
@@ -54,9 +79,7 @@ public class EnemyController : MonoBehaviour
 
             UpdateDirectionSprites(dir);
 
-            rb.MovePosition(
-                rb.position + dir * moveSpeed * Time.fixedDeltaTime
-            );
+            rb.MovePosition(rb.position + dir * moveSpeed * Time.fixedDeltaTime);
         }
         else
         {
@@ -113,7 +136,6 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("무언가와 충돌");
             PlayerController player =
                 collision.gameObject.GetComponent<PlayerController>();
 

@@ -98,6 +98,7 @@ public class PlayerController : MonoBehaviour
 
         if (currentHp <= 0)
         {
+
             Die();
             return;
         }
@@ -182,31 +183,34 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log("플레이어 사망");
 
-        SceneManager.LoadScene("TitleScene");
+        GameManager.Instance.GameOver();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         ItemObject itemObject = collision.GetComponent<ItemObject>();
 
+        EnemyController enemy = collision.GetComponent<EnemyController>();
+
         if (itemObject != null)
         {
             UseItem(itemObject.itemData);
 
             Destroy(collision.gameObject);
+
+            enemy.TakeDamage(1);
+            Destroy(gameObject);
         }
     }
 
     private void UseItem(ItemData item)
     {
+        // 아이템 먹으면 점수 증가
+        GameDataManager.Instance.AddScore(50);
+
         switch (item.itemType)
         {
             case ItemType.Heal:
-
-                currentHp += item.healAmount;
-
-                if (currentHp > maxHp)
-                    currentHp = maxHp;
 
                 currentHp += item.healAmount;
 

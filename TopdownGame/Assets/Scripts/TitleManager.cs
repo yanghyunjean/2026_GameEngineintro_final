@@ -5,26 +5,29 @@ public class TitleManager : MonoBehaviour
 {
     public GameObject tutorialPanel;
 
+    private const string TUTORIAL_KEY = "TUTORIAL";
+
     private void Start()
     {
-        if (GameDataManager.Instance.isTutorialFinished == 0)
+
+
+        int isTutorialFinished = PlayerPrefs.GetInt(TUTORIAL_KEY, 0);
+
+        if (isTutorialFinished == 0)
         {
-            tutorialPanel.SetActive(true);
+            Debug.Log("튜토리얼 시작");
         }
         else
         {
-            tutorialPanel.SetActive(false);
+            Debug.Log("튜토리얼 스킵");
         }
     }
 
-    public void CloseTutorial()
+    public void FinishTutorial()
     {
-        tutorialPanel.SetActive(false);
-
-        GameDataManager.Instance.isTutorialFinished = 1;
-        GameDataManager.Instance.SavePlayerPrefs();
-    }
-
+        PlayerPrefs.SetInt(TUTORIAL_KEY, 1);
+        PlayerPrefs.Save();
+    }   
     // 게임 시작
     public void StartGame()
     {
