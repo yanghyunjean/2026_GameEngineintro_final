@@ -1,7 +1,5 @@
-using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SocialPlatforms.Impl;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
@@ -86,6 +84,60 @@ public class PlayerController : MonoBehaviour
                     ChangeSprites(spriteDown);
             }
         }
+    }
+    private IEnumerator StartSpeedBoost()
+    {
+        moveSpeed *= 1.5f;
+
+        yield return new WaitForSeconds(10f);
+
+        moveSpeed /= 1.5f;
+    }
+
+    private IEnumerator StartInvincible()
+    {
+        isInvincible = true;
+
+        yield return new WaitForSeconds(10f);
+
+        isInvincible = false;
+    }
+
+    private void Start()
+    {
+        UseStartItems();
+    }
+
+    private void UseStartItems()
+    {
+        SaveData data =
+            GameDataManager.Instance.saveData;
+
+        if (data.healItemCount > 0)
+        {
+            currentHp =
+                Mathf.Min(currentHp + 1, maxHp);
+
+            data.healItemCount--;
+        }
+
+        if (data.speedItemCount > 0)
+        {
+            StartCoroutine(StartSpeedBoost());
+
+            data.speedItemCount--;
+        }
+
+        if (data.invincibleItemCount > 0)
+        {
+            StartCoroutine(StartInvincible());
+
+            data.invincibleItemCount--;
+        }
+
+        GameDataManager.Instance.SaveJsonData();
+
+        heartUI.UpdateHeart(currentHp);
     }
 
     public void TakeDamage(int damage)
@@ -190,16 +242,11 @@ public class PlayerController : MonoBehaviour
     {
         ItemObject itemObject = collision.GetComponent<ItemObject>();
 
-        EnemyController enemy = collision.GetComponent<EnemyController>();
-
         if (itemObject != null)
         {
             UseItem(itemObject.itemData);
 
             Destroy(collision.gameObject);
-
-            enemy.TakeDamage(1);
-            Destroy(gameObject);
         }
     }
 
