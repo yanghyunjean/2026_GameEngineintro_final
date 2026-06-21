@@ -5,7 +5,7 @@ public class EnemySpawner : MonoBehaviour
 {
     public GameObject[] enemyPrefabs;
     public Transform[] spawnPoints;
-
+    public StageData currentStage;
     public float minSpawnTime = 2f;
     public float maxSpawnTime = 6f;
 
@@ -25,6 +25,8 @@ public class EnemySpawner : MonoBehaviour
             SpawnEnemy();
         }
     }
+
+    
 
     void SpawnEnemy()
     {

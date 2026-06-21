@@ -93,7 +93,11 @@ public class GameDataManager : MonoBehaviour
     {
         CalculateReward();
 
-        
+        if (score > saveData.bestScore)
+        {
+            saveData.bestScore = score;
+        }
+
         if (survivalTime > saveData.bestTime)
         {
             saveData.bestTime = survivalTime;

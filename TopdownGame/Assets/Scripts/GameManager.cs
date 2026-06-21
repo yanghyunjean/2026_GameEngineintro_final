@@ -12,15 +12,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        Instance = this;
     }
 
     // =========================
@@ -49,8 +41,14 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        Debug.Log("생존시간 : " +
+    GameDataManager.Instance.survivalTime);
+
+        Debug.Log("현재 골드 : " +
+            GameDataManager.Instance.saveData.money);
+
         // 결과 저장 + 보상 계산
-        GameDataManager.Instance.CalculateReward();
+        
         GameDataManager.Instance.SaveGameResult();
 
         // UI 표시
@@ -75,6 +73,14 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
         GoTitle();
+    }
+
+    private void Update()
+    {
+        if (GameDataManager.Instance != null)
+        {
+            GameDataManager.Instance.survivalTime += Time.deltaTime;
+        }
     }
 
     // =========================

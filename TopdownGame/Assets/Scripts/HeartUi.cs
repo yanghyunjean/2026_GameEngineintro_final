@@ -3,13 +3,14 @@ using UnityEngine.UI;
 
 public class HeartUI : MonoBehaviour
 {
-    public Image[] hearts;
+    public GameObject[] hearts;
 
-    public void UpdateHeart(int currentHp)
+    public void UpdateHeart(int hp)
     {
         for (int i = 0; i < hearts.Length; i++)
         {
-            hearts[i].enabled = i < currentHp;
+            hearts[i].SetActive(i < hp);
         }
     }
+
 }
